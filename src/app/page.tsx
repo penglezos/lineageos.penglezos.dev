@@ -12,7 +12,7 @@ export default function Home() {
         {`LineageOS Android Distribution is a free and open-source operating system for various devices, 
         based on the Android mobile platform.`}
       </p>
-      <p className="mb-4">You can read more about LineageOS by visiting their <a href="https://lineageos.org" target="_blank" className="underline">official website.</a></p>
+      <p className="mb-4">You can read more about LineageOS by visiting their <a href="https://lineageos.org" className="underline" target="_blank" >official website.</a></p>
     </section>
   )
 }
