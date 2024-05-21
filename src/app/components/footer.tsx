@@ -19,7 +19,7 @@ function ArrowIcon() {
     return (
       <footer className="mb-16">
         <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-          © {new Date().getFullYear()} <a href="https://github.com/penglezos" target="_blank">Panagiotis Englezos</a>
+          © {new Date().getFullYear()} <a href="https://github.com/penglezos" className="underline" target="_blank">Panagiotis Englezos</a>
         </p>
       </footer>
     )
