@@ -1,8 +1,10 @@
 export default function Home() {
   return (
     <section>
-      <img src="lineage.png" width="300"></img>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <div className="flex justify-center items-center">
+        <img src="lineage.png" width="300"></img>
+      </div>
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter text-center">
         LineageOS builds by penglezos
       </h1>
       <p className="mb-4">
