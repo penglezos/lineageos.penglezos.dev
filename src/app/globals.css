@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+h1 {
+  color: #167c80;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
