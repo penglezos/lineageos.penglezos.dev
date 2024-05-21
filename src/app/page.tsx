@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <section>
+      <img src="lineage.png" width="300"></img>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         LineageOS builds by penglezos
       </h1>
