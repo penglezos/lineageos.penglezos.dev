@@ -12,7 +12,19 @@ export default function Home() {
         {`LineageOS Android Distribution is a free and open-source operating system for various devices, 
         based on the Android mobile platform.`}
       </p>
-      <p className="mb-4">You can read more about LineageOS by visiting their <a href="https://lineageos.org" className="underline" target="_blank" >official website.</a></p>
+      <p className="mb-10">You can read more about LineageOS by visiting their <a href="https://lineageos.org" className="underline" target="_blank" >official website.</a></p>
+      <h2 className="mb-4 text-2xl ont-semibold tracking-tighter">Changes from official LineageOS sources:</h2>
+      <ul className="list-disc list-inside">
+        <li>Play Integrity/Safetynet passes out of the box</li>
+        <li>Google Photos spoof to allow unlimited storage</li>
+        <li>Require unlocking to use sensitive QS tiles</li>
+        <li>Allow disabling ripple effect on unlock</li>
+        <li>Improved scrolling friction</li>
+        <li>Improved scrolling cache</li>
+        <li>Double tap on home screen to turn off screen</li>
+        <li>Various log spam fixes</li>
+        <li>Misc backend optimizations</li>
+      </ul>
     </section>
   )
 }
