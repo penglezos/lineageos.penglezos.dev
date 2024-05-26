@@ -6,8 +6,10 @@ export default async function Devices() {
     
     return (
     <div>
-      <h1 className="mb-2 text-2xl font-semibold tracking-tighter">{data.name}</h1>
-      <p>{data.codename}</p>
+      <a href="#">
+        <h1 className="mb-2 text-2xl font-semibold tracking-tighter">{data.name}</h1>
+        <p>{data.codename}</p>
+      </a>
     </div>
   );
   }
