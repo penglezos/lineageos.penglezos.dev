@@ -1,0 +1,44 @@
+site_name: penglezos LineageOS
+site_url: https://lineage.penglezos.dev
+site_description: LineageOS builds by penglezos
+site_author: penglezos
+repo_url: https://github.com/penglezos/lineage.penglezos.dev
+edit_uri: ""
+copyright: Copyright &copy; 2024 Panagiotis Englezos
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+theme:
+  name: material
+  favicon: images/favicon.ico
+  logo: images/logo.png
+
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+
+  features:
+    - navigation.tabs
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/penglezos
+
+nav:
+  - Getting started: 'index.md'
