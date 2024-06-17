@@ -44,3 +44,4 @@ extra:
 
 nav:
   - Getting started: 'index.md'
+  - Devices: 'devices.md'
