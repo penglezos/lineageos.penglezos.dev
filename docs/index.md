@@ -19,4 +19,5 @@ You can find various information about the project, installation instructions an
 * Improved scrolling cache
 * Double tap on home screen to turn off screen
 * Various log spam fixes
+* OTA & local updates are supported 
 * Misc backend optimizations
