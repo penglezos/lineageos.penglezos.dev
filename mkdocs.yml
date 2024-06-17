@@ -37,6 +37,8 @@ extra_css:
 
 extra:
   social:
+    - icon: fontawesome/solid/globe
+      link: https://penglezos.dev
     - icon: fontawesome/brands/github
       link: https://github.com/penglezos
 
