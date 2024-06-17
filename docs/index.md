@@ -34,3 +34,5 @@ Before getting started, make sure you read this piece of information and meet th
 * **Do NOT** decrypt your system.
 * **Do NOT** root and install any other mods.
 * While you can flash custom kernels support will **NOT** be provided.
+
+<a href="devices" class="md-button">Next step</a>
