@@ -24,4 +24,4 @@ hide:
 | Previously supported versions | 17.1, 18.1, 19.1, 20 |
 
 ## Downloads
-[Get the builds here](https://github.com/penglezos/device_xiaomi_raphael/releases)
+<a href="https://github.com/penglezos/device_xiaomi_raphael/releases" target="_blank">Get the builds here</a>
