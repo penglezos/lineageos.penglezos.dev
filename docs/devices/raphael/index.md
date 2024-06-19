@@ -25,3 +25,8 @@ hide:
 
 ## Downloads
 <a href="https://github.com/penglezos/device_xiaomi_raphael/releases" target="_blank">Get the builds here</a>
+
+## Guides
+[Installation](../raphael/installation.md)
+[Update to a newer build of the same LineageOS version](../raphael/update.md)
+[Upgrade to a higher version of LineageOS (e.g. lineage-20 -> lineage-21)](../raphael/upgrade.md)
