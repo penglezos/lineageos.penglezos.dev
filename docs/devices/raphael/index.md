@@ -21,6 +21,6 @@ hide:
 | Battery           | Non-removable Li-Po 4000 mAh |
 | Maintainer        | penglezos |
 | Current version   | 21 |
-| Previous versions | 18, 19.1 ,20 |
+| Previous versions | 17.1, 18.1, 19.1, 20 |
 
 **Detailed device information can be found [here.](https://www.gsmarena.com/xiaomi_mi_9t_pro-9791.php)**
