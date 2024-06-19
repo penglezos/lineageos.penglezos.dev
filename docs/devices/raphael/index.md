@@ -34,3 +34,6 @@ hide:
 ## Special boot modes
 * **Recovery**: With the device powered off, hold `Volume Up + Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 * **Fastboot**: With the device powered off, hold `Volume Down + Power`. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
+
+## Report a bug
+If you’d like to report a bug, follow the instructions [here](../../bugreport.md).
