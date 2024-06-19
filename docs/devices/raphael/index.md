@@ -30,3 +30,7 @@ hide:
 [Installation](../raphael/installation.md)
 [Update to a newer build of the same LineageOS version](../raphael/update.md)
 [Upgrade to a higher version of LineageOS (e.g. lineage-20 -> lineage-21)](../raphael/upgrade.md)
+
+## Special boot modes
+* **Recovery**: With the device powered off, hold `Volume Up + Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
+* **Fastboot**: With the device powered off, hold `Volume Down + Power`. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
