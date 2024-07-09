@@ -36,4 +36,4 @@ hide:
 * **Fastboot**: With the device powered off, hold `Volume Down + Power`. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
 
 ## Report a bug
-If you’d like to report a bug, follow the instructions [here](../../bugreport.md).
+If you’d like to report a bug, follow the instructions [here](https://github.com/penglezos/device_xiaomi_raphael/issues).
