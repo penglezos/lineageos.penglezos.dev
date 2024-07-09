@@ -17,7 +17,7 @@ Before getting started, make sure you read this piece of information and meet th
 * Make sure you have made a working back up of all your personal files.
 * Install **ONLY** the provided LineageOS recovery by folowing the installation guide instructions. Other custom recoveries are **NOT** supported.
 * **Do NOT** decrypt your system.
-* **Do NOT** root and install any other mods.
+* **Do NOT** root or install any other mods.
 * While you can flash custom kernels support will **NOT** be provided.
 
 <a href="devices" class="md-button">Next step</a>
