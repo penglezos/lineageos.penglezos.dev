@@ -22,6 +22,7 @@ hide:
 | Maintainer        | penglezos |
 | Current version   | 21 |
 | Previously supported versions | 17.1, 18.1, 19.1, 20 |
+| Kernel version    | 4.14 |
 
 ## Downloads
 <a href="https://github.com/penglezos/device_xiaomi_raphael/releases" target="_blank">Get the builds here</a>
