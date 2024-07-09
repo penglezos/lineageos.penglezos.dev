@@ -14,7 +14,6 @@ Before getting started, make sure you read this piece of information and meet th
 * Make sure your computer has `adb` and `fastboot` installed. Setup instructions can be found [here](https://wiki.lineageos.org/adb_fastboot_guide.html).
 * Make sure your device has the bootloader unlocked. Unlocking instructions can be found [here](https://new.c.mi.com/global/post/101245).
 * Make sure USB debugging is enabled.
-* Make sure you installed the latest firmware according to your region. [Global, Europe, China](https://xmfirmwareupdater.com/firmware/raphael/) firmware. [India](https://xmfirmwareupdater.com/firmware/raphaelin/) firmware.
 * Make sure you have made a working back up of all your personal files.
 * Install **ONLY** the provided LineageOS recovery by folowing the installation guide instructions. Other custom recoveries are **NOT** supported.
 * **Do NOT** decrypt your system.
