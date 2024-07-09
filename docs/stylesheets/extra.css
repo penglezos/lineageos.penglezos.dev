@@ -6,3 +6,8 @@
     --md-primary-bg-color--light: #F1F1F1;  
     --md-accent-fg-color:         #167c80;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
