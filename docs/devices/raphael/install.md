@@ -9,24 +9,10 @@ hide:
 !!! note
     Make sure you have read the [Getting started](../../index.md) page before proceeding with the installation.
 
-## Download required files from [Github releases](https://github.com/penglezos/device_xiaomi_raphael/releases/latest):
-* lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
-* recovery.img
-
-## Device firmware
-* Download the latest vendor firmware available for your device according to your region:
-
-| Firmware          | Region | Link                      |
-| ----------------- | -------|-------------------------- |
-| V12.5.2.0.RFKMIXM | Global | [Click here](https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/) |
-| V12.5.1.0.RFKEUXM | Europe | [Click here](https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.1.0.RFKEUXM/) |
-| V12.5.6.0.RFKCNXM | China  |  [Click here](https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.6.0.RFKCNXM/) |
-| V12.5.1.0.RFKINXM | India  | [Click here](https://xmfirmwareupdater.com/firmware/raphaelin/stable/V12.5.1.0.RFKINXM/) |
-
 ## Install Lineage Recovery using fastboot
 !!! warning
     Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!
-
+* Download [Lineage Recovery](https://github.com/penglezos/device_xiaomi_raphael/releases/latest). Simply download the latest recovery file, named `recovery.img`.
 * Connect your device to your PC via USB if it isn’t already.
 * If your device isn’t already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```bash
@@ -55,6 +41,15 @@ With the device powered off, hold `Volume Up` + `Power`. Keep holding both butto
     Lineage recovery should be installed successfully and should show the LineageOS logo.
 
 ## Install device firmware from recovery
+* Download the latest device firmware available for your device according to your region:
+
+| Firmware          | Region | Link                      |
+| ----------------- | -------|-------------------------- |
+| V12.5.2.0.RFKMIXM | Global | [Click here](https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.2.0.RFKMIXM/) |
+| V12.5.1.0.RFKEUXM | Europe | [Click here](https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.1.0.RFKEUXM/) |
+| V12.5.6.0.RFKCNXM | China  |  [Click here](https://xmfirmwareupdater.com/firmware/raphael/stable/V12.5.6.0.RFKCNXM/) |
+| V12.5.1.0.RFKINXM | India  | [Click here](https://xmfirmwareupdater.com/firmware/raphaelin/stable/V12.5.1.0.RFKINXM/) |
+
 * On the `LineageOS Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
 
 * Open a `ADB & Fastboot` tools window on your PC and flash the `device firmware` install package you downloaded previously:
@@ -69,6 +64,7 @@ $ adb sideload fw_raphael.zip
     Device firmware should be installed successfully.
 
 ## Install LineageOS from recovery
+* Download the [lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip file](https://github.com/penglezos/device_xiaomi_raphael/releases/latest) that you would like to install.
 * On the `Lineage Recovery` home screen tap, `Factory Reset`, then `Format data / factory reset` and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 * Return to the main menu.
 * On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
