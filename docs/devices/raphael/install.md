@@ -83,3 +83,17 @@ $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
 
 !!! success
     LineageOS should be installed successfully.
+
+## Install Add-Ons
+!!! warning
+    If you don’t want to install any add-on (such as Google Apps), you can skip this whole section and reboot to system!
+    If you want to install Google Apps add-on package (use the `arm64` architecture), you can download it from [here](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest). This add-on needs to be installed **before** booting into LineageOS for the first time!
+
+* On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
+* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded previously (for example: Google Apps):
+```bash
+$ adb sideload filename.zip
+```
+
+!!! note
+    When presented with a screen that says Signature verification failed, click `Continue`. It is expected as add-ons aren’t signed with LineageOS’s official key!
