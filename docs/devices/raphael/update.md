@@ -2,7 +2,7 @@
 hide:
   - navigation
 ---
-[:material-arrow-u-left-bottom: Overview](../../devices.md)
+[:material-arrow-u-left-bottom: Overview](./index.md)
 
 # Update LineageOS on Xiaomi Mi 9T Pro - Redmi K20 Pro (raphael)
 
