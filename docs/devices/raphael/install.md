@@ -11,7 +11,7 @@ hide:
 
 ## Install Lineage Recovery using fastboot
 !!! warning
-    Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!
+    Other recoveries may not work for installation or updates. We strongly recommend to use the one linked below!
 * Download [Lineage Recovery](https://github.com/penglezos/device_xiaomi_raphael/releases/latest). Simply download the latest recovery file, named `recovery.img`.
 * Connect your device to your PC via USB if it isn’t already.
 * If your device isn’t already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
