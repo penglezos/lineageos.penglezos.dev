@@ -67,3 +67,19 @@ $ adb sideload fw_raphael.zip
 
 !!! success
     Device firmware should be installed successfully.
+
+## Install LineageOS from recovery
+* On the `Lineage Recovery` home screen tap, `Factory Reset`, then `Format data / factory reset` and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+* Return to the main menu.
+* On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
+* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded previously:
+
+```bash
+$ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
+```
+
+!!! information
+    Normally, adb will report Total xfer: 1.00x, but in some cases, even if the process succeeds the output will stop at 47% and report adb: failed to read command: Success. In some cases it will report adb: failed to read command: No error or adb: failed to read command: Undefined error: 0 which is also fine.
+
+!!! success
+    LineageOS should be installed successfully.
