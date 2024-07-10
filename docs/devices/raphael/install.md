@@ -64,7 +64,7 @@ $ adb sideload fw_raphael.zip
     Device firmware should be installed successfully.
 
 ## Install LineageOS from recovery
-* Download the [lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip file](https://github.com/penglezos/device_xiaomi_raphael/releases/latest) that you would like to install.
+* Download the [LineageOS zip file](https://github.com/penglezos/device_xiaomi_raphael/releases/latest). Simply download the latest zip file, named `lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip`.
 * On the `Lineage Recovery` home screen tap, `Factory Reset`, then `Format data / factory reset` and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 * Return to the main menu.
 * On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
