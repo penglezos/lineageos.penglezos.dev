@@ -53,3 +53,17 @@ With the device powered off, hold `Volume Up` + `Power`. Keep holding both butto
 
 !!! success
     Lineage recovery should be installed successfully and should show the LineageOS logo.
+
+## Install device firmware from recovery
+* On the `LineageOS Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
+
+* Open a `ADB & Fastboot` tools window on your PC and flash the `device firmware` install package you downloaded previously:
+```bash
+$ adb sideload fw_raphael.zip
+```
+
+!!! note
+    When presented with a screen that says Signature verification failed, click `Continue`. It is expected as add-ons aren’t signed with LineageOS’s official key!
+
+!!! success
+    Device firmware should be installed successfully.
