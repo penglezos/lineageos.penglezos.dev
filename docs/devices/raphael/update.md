@@ -22,3 +22,4 @@ hide:
 ```bash
 $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
 ```
+* Click the back arrow in the top left of the screen, then `Reboot system now`.
