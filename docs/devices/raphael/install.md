@@ -97,3 +97,10 @@ $ adb sideload filename.zip
 
 !!! note
     When presented with a screen that says Signature verification failed, click `Continue`. It is expected as add-ons aren’t signed with LineageOS’s official key!
+
+## All set!
+* Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
+* Click the back arrow in the top left of the screen, then `Reboot system now`.
+
+!!! note
+    The first boot usually takes no longer than 15 minutes, depending on the device. If it takes longer, you may have missed a step.
