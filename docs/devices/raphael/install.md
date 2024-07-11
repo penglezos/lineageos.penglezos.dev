@@ -58,7 +58,7 @@ $ adb sideload fw_raphael.zip
 ```
 
 !!! note
-    When presented with a screen that says Signature verification failed, click `Continue`. It is expected as add-ons aren’t signed with LineageOS’s official key!
+    When presented with a screen that says Signature verification failed, click `Yes`. It is expected as add-ons aren’t signed with LineageOS’s official key!
 
 !!! success
     Device firmware should be installed successfully.
@@ -92,7 +92,7 @@ $ adb sideload filename.zip
 ```
 
 !!! note
-    When presented with a screen that says Signature verification failed, click `Continue`. It is expected as add-ons aren’t signed with LineageOS’s official key!
+    When presented with a screen that says Signature verification failed, click `Yes`. It is expected as add-ons aren’t signed with LineageOS’s official key!
 
 ## All set!
 * Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
