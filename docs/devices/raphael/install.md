@@ -52,7 +52,7 @@ With the device powered off, hold `Volume Up` + `Power`. Keep holding both butto
 
 * On the `LineageOS Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
 
-* Open a `ADB & Fastboot` tools window on your PC and flash the `device firmware` install package you downloaded previously:
+* Open a `ADB & Fastboot` tools window on your PC and flash the `device firmware` install package you downloaded above:
 ```bash
 $ adb sideload fw_raphael.zip
 ```
@@ -68,7 +68,7 @@ $ adb sideload fw_raphael.zip
 * On the `Lineage Recovery` home screen tap, `Factory Reset`, then `Format data / factory reset` and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 * Return to the main menu.
 * On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
-* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded previously:
+* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded above:
 
 ```bash
 $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
@@ -86,7 +86,7 @@ $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
     If you want to install Google Apps add-on package (use the `arm64` architecture), you can download it from [here](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest). This add-on needs to be installed **before** booting into LineageOS for the first time!
 
 * On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
-* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded previously (for example: Google Apps):
+* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded above (for example: Google Apps):
 ```bash
 $ adb sideload filename.zip
 ```

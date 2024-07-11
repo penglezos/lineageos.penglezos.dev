@@ -17,7 +17,7 @@ hide:
 * Enable USB debugging on your device.
 * Now reboot into recovery. With the device powered off, hold `Volume Up` + `Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 * On the `Lineage Recovery` home screen, tap `Apply update`, then `Apply from ADB` for starting the sideload service.
-* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded previously:
+* Open a `ADB & Fastboot` tools window on your PC and flash the `LineageOS install package` you downloaded above:
 
 ```bash
 $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
