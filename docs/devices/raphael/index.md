@@ -25,37 +25,44 @@ hide:
 | Kernel version    | 4.14 |
 
 ## Downloads
+
 <a href="https://github.com/penglezos/device_xiaomi_raphael/releases" target="_blank">Get the builds here</a>
 
 ## Guides
+
 * [Installation](../raphael/install.md)
 * [Update to a newer build of the same LineageOS version](../raphael/update.md)
 * [Upgrade to a higher version of LineageOS (e.g. lineage-20 -> lineage-21)](../raphael/upgrade.md)
 
 ## Special boot modes
+
 * **Recovery**: With the device powered off, hold `Volume Up + Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 * **Fastboot**: With the device powered off, hold `Volume Down + Power`. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
 
 ## Report a bug
+
 !!! note
     Support will **NOT** be provided if: ROM is installed with a different recovery, a custom kernel is installed, any kind of system modifications example: root, data decryption.
 
 ## What not to report
-* Ask for installation help
-* Ask for status updates - we can’t provide them (no ETA!)
-* Feature requests
-* Ask if it is fixed already - if the report is still open it probably is still present!
+
+* Ask for installation help.
+* Ask for status updates - we can’t provide them (no ETA!).
+* Feature requests.
+* Ask if it is fixed already - if the report is still open it probably is still present.
 
 ## Reporting a bug
-We use [Github Issues](https://github.com/penglezos/device_xiaomi_raphael/issues) as our bug tracker. Before you submit a bug, please search to verify that someone else hasn’t reported it already.
 
-To properly report an issue, the following log file must be provided in the ticket:
+We use [Github Issues](https://github.com/penglezos/device_xiaomi_raphael/issues) as our bug tracker. 
+
+Before you submit a bug, please search to verify that someone else hasn’t reported it already. To properly report an issue, the following log file must be provided in the ticket:
 
 * `logcat` (System Log).
 
 Providing a detailed description of the issue and attaching a video/photo is always a plus.
 
 ## Taking logs for bug reports
+
 These instructions will generate a logcat file which you can then attach to a bug report. That file basically consists of a log of system messages, including stack traces when the device throws an error, and debug messages from apps.
 
 To grab a `logcat` it is required to have USB debugging enabled:
@@ -68,6 +75,7 @@ $ adb logcat -d > logcat.txt
 ```
 
 Additionally, the radio buffer can be viewed or stored with logcat. If needed or requested, type:
+
 ```bash
 $ adb logcat -db radio > radio.txt
 ```

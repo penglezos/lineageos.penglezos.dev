@@ -4,11 +4,13 @@ hide:
 ---
 
 # Introduction
+
 Welcome to the LineageOS by penglezos wiki!
 
-You can find various information about the project, installation instructions and much more.
+You can find various information about the project, installation instructions, how to report a bug and much more.
 
 ## Getting started
+
 Before getting started, make sure you read this piece of information and meet the following requirements:
 
 * Make sure your computer has `adb` and `fastboot` installed. Setup instructions can be found [here](https://wiki.lineageos.org/adb_fastboot_guide.html).
