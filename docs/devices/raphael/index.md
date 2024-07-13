@@ -41,7 +41,7 @@ hide:
 
 ## Report a bug
 
-!!! note
+!!! warning
     Support will **NOT** be provided if: ROM is installed with a different recovery, a custom kernel is installed, any kind of system modifications example: root, data decryption.
 
 ## What not to report
