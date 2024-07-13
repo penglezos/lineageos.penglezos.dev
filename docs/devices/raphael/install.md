@@ -104,8 +104,7 @@ $ adb sideload filename.zip
 
 ## All set!
 
-* Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
-* Click the back arrow in the top left of the screen, then `Reboot system now`.
+* Once you have installed everything successfully, click the back arrow in the top left of the screen, then `Reboot system now`.
 
 !!! note
     The first boot usually takes no longer than 15 minutes, depending on the device. If it takes longer, you may have missed a step.
