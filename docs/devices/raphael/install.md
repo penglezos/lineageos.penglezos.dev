@@ -59,7 +59,7 @@ With the device powered off, hold `Volume Up` + `Power`. Keep holding both butto
 * Open a `ADB & Fastboot` tools window on your PC and flash the `device firmware` install package you downloaded above:
 
 ```bash
-$ adb sideload fw_raphael.zip
+$ adb sideload filename.zip
 ```
 
 !!! note
