@@ -15,6 +15,7 @@ hide:
 
 ## Sideloading from Recovery
 
+* Download the [LineageOS zip file](https://github.com/penglezos/device_xiaomi_raphael/releases/latest). Simply download the latest zip file, named `lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip`.
 * Make sure your computer has `adb` and `fastboot` installed. Setup instructions can be found [here](https://wiki.lineageos.org/adb_fastboot_guide.html).
 * Enable USB debugging on your device.
 * Now reboot into recovery. With the device powered off, hold `Volume Up` + `Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
