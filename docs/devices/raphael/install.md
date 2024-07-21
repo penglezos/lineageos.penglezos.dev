@@ -4,7 +4,7 @@ hide:
 ---
 [:material-arrow-u-left-bottom: Overview](./index.md)
 
-# Install LineageOS on Xiaomi Mi 9T Pro - Redmi K20 Pro (raphael)
+# Install LineageOS on Xiaomi Mi 9T Pro/Redmi K20 Pro (raphael)
 
 !!! note
     Make sure you have read the [Getting started](../../index.md) page before proceeding with the installation.

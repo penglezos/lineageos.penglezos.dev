@@ -4,7 +4,7 @@ hide:
 ---
 [:material-arrow-u-left-bottom: Overview](./index.md)
 
-# Upgrade LineageOS on Xiaomi Mi 9T Pro - Redmi K20 Pro (raphael)
+# Upgrade LineageOS on Xiaomi Mi 9T Pro/Redmi K20 Pro (raphael)
 
 ## Manually upgrading LineageOS to a higher version of LineageOS
 
