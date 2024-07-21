@@ -12,6 +12,7 @@ hide:
 * Improved scrolling friction.
 * Improved scrolling cache.
 * Double tap on home screen to turn off screen.
+* Inter font
 * Various log spam fixes.
 * OTA & local updates are supported.
 * Misc backend optimizations.
