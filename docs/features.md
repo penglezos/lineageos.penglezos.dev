@@ -5,6 +5,7 @@ hide:
 
 # Features 
 
+* Signed with personal keys
 * Play Integrity/Safetynet passes out of the box.
 * Google Photos spoof to allow unlimited storage.
 * Require unlocking to use several sensitive QS tiles.
