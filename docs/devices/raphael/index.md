@@ -26,7 +26,7 @@ hide:
 
 ## Downloads
 
-<a href="https://github.com/penglezos/device_xiaomi_raphael/releases" target="_blank">Get the builds here</a>
+[Get the builds here](https://github.com/penglezos/device_xiaomi_raphael/releases)
 
 ## Guides
 
