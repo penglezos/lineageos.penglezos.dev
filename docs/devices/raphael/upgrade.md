@@ -31,6 +31,3 @@ $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
     Add-ons aren’t signed with LineageOS’s official key, and therefore when they are sideloaded, Lineage Recovery will present a screen that says Signature verification failed, this is expected, please click Continue.
 
 * Once you have installed everything successfully, click the back arrow in the top left of the screen, then `Reboot system now`.
-
-!!! success
-    LineageOS should be installed successfully.

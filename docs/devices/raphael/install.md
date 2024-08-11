@@ -40,9 +40,6 @@ $ fastboot flash recovery recovery.img
 
 With the device powered off, hold `Volume Up` + `Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 
-!!! success
-    Lineage recovery should be installed successfully and should show the LineageOS logo.
-
 ## Installing device firmware from recovery
 
 * Download the latest device firmware available for your device according to your region:
@@ -65,9 +62,6 @@ $ adb sideload filename.zip
 !!! note
     When presented with a screen that says Signature verification failed, click `Yes`. It is expected as add-ons aren’t signed with LineageOS’s official key!
 
-!!! success
-    Device firmware should be installed successfully.
-
 ## Installing LineageOS from recovery
 
 * Download the [LineageOS zip file](https://github.com/penglezos/device_xiaomi_raphael/releases/latest). Simply download the latest zip file, named `lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip`.
@@ -82,9 +76,6 @@ $ adb sideload lineage-21.0-xxxxxxxx-UNOFFICIAL-raphael.zip
 
 !!! information
     Normally, adb will report Total xfer: 1.00x, but in some cases, even if the process succeeds the output will stop at 47% and report adb: failed to read command: Success. In some cases it will report adb: failed to read command: No error or adb: failed to read command: Undefined error: 0 which is also fine.
-
-!!! success
-    LineageOS should be installed successfully.
 
 ## Installing Add-Ons
 
