@@ -39,18 +39,6 @@ hide:
 * **Recovery**: With the device powered off, hold `Volume Up + Power`. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 * **Fastboot**: With the device powered off, hold `Volume Down + Power`. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
 
-## Report a bug
-
-!!! warning
-    Support will **NOT** be provided if: ROM is installed with a different recovery, a custom kernel is installed, any kind of system modifications example: root, data decryption.
-
-## What not to report
-
-* Ask for installation help.
-* Ask for status updates - we can’t provide them (no ETA!).
-* Feature requests.
-* Ask if it is fixed already - if the report is still open it probably is still present.
-
 ## Reporting a bug
 
 If you’d like to report a bug, follow the instructions [here.](../../bugreport.md)

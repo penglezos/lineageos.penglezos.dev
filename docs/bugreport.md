@@ -5,6 +5,16 @@ hide:
 
 # Reporting a bug
 
+!!! warning
+    Support will **NOT** be provided if: ROM is installed with a different recovery, a custom kernel is installed, any kind of system modifications example: root, data decryption.
+
+## What not to report
+
+* Ask for installation help.
+* Ask for status updates - we can’t provide them (no ETA!).
+* Feature requests.
+* Ask if it is fixed already - if the report is still open it probably is still present.
+
 We use [Github Issues](https://github.com/penglezos/device_xiaomi_raphael/issues) as our bug tracker. 
 
 Before you submit a bug, please search to verify that someone else hasn’t reported it already. To properly report an issue, the following log file must be provided in the ticket:
