@@ -5,7 +5,7 @@ hide:
 
 # Features 
 
-* Signed with personal keys
+* Signed with personal keys.
 * Play Integrity/Safetynet passes out of the box.
 * Google Photos spoof to allow unlimited storage.
 * Require unlocking to use several sensitive QS tiles.
@@ -13,7 +13,7 @@ hide:
 * Improved scrolling friction.
 * Improved scrolling cache.
 * Double tap on home screen to turn off screen.
-* Inter font
+* Inter font.
 * Various log spam fixes.
 * OTA & local updates are supported.
 * Misc backend optimizations.
