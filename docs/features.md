@@ -13,6 +13,7 @@ hide:
 * Improved scrolling friction.
 * Improved scrolling cache.
 * Double tap on home screen to turn off screen.
+* UDFPS: Disable ExtraDim on keyguard.
 * Inter font.
 * Various log spam fixes.
 * OTA & local updates are supported.
