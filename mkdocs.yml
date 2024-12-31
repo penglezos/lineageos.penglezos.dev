@@ -3,7 +3,7 @@ site_url: https://lineageos.penglezos.dev
 site_description: LineageOS builds by penglezos
 site_author: penglezos
 edit_uri: ""
-copyright: Copyright &copy; 2024 Panagiotis Englezos
+copyright: Copyright &copy; 2024-2025 Panagiotis Englezos
 
 markdown_extensions:
   - admonition
