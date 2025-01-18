@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://lineageos.penglezos.dev/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://lineageos.penglezos.dev/bugreport/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://lineageos.penglezos.dev/devices/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://lineageos.penglezos.dev/devices/raphael/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://lineageos.penglezos.dev/devices/raphael/install/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://lineageos.penglezos.dev/devices/raphael/update/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+    <url>
+         <loc>https://lineageos.penglezos.dev/devices/raphael/upgrade/</loc>
+         <lastmod>2025-01-18</lastmod>
+    </url>
+</urlset>
